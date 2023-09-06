@@ -7,7 +7,7 @@ import (
 )
 
 func helloWorld(w http.ResponseWriter, r *http.Request) {
-	s := []byte("hello")
+	s := []byte("hello_world")
 	w.Write(s)
 	w.WriteHeader(201)
 
